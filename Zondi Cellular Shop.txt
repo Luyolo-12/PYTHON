@@ -1,0 +1,59 @@
+#Zondi Cellular Shop!!
+
+print('Hello Sir/Madam, welcome to our cellular shop.\n')
+
+name = input('What is your name Sir/Madam?\n')
+
+if name == 'Phumlani':
+    print('Sorry Sir you are not welcomed in our shop, so please leave.')
+
+    exit()
+else:
+    print('you are welcomed to our shop ' + name + '.\n')
+
+devices = 'Samsung Galaxy, iPhone 13 Pro, Huawei Nova y70, Samsung A10, MacBook, iPad, Lenovo Laptop, Smart Charger, Earphones, Earpods, Headsets, Mouse.\n'
+
+print(name + ', which phone or laptop would you like to buy in our list of electronic devices? Here is what we have.\n\n ' + devices)
+
+order = input()
+
+price = 15000
+
+quantity = input('How many devices would you like to buy?\n')
+
+print('Sounds good ' + name + ', your devices will be ready in a moment, in the meantime please fill in this form.\n')
+
+form = input('Date of birth:\n') + input(' Address:\n') + input('Phone Number:\n')
+
+print('Thank you for filling the form and your total price will follow.\n')
+
+total = price * int(quantity)
+
+print(name + ', Your total is: R' + str(total))
+
+#After getting the devices and payed.
+
+print('Have a good day ' + name +  ', and please fill free if you face any problems regarding the device, use this number 0712578366 to call us.\n\n')
+
+print('The costumer faces problems...\n\n')
+
+print('Hello ' + name + ', welcome again to the shop.\n')
+
+input('What is the problem?\n')
+
+print('Ohh, i see luckily here at Zondi Cellular Shop we have a premium that covers you device if you come up with problems and it is very much cheap.\n')
+
+input('Would you like to take the prremium or you can just pay the full amount of the issue?\n')
+
+print('The premium can be paid in monthly installments or you can pay p.a. The premium costs R60.86p.m and R730,32p.a in SI.\n')
+input('Will you be able to pay monthly or per annum?\n')
+
+print('Your qoutation is coming in a minute...' + input('can you show me your earnings to make sure that you can pay and that you are really working.\n'))
+
+if earnings:
+    print('Your payslip looks okay.')
+else:
+    print('Sorry you are not able to get the premium')
+
+    exit()
+
